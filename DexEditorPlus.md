@@ -6,7 +6,7 @@ Dex编辑器++是MT管理器2.2.0版本新增的功能，Dex处理库代码来�
 
 ## 入门指南
 
-使用MT管理器打开任意dex文件，选择**Dex编辑器++**即可进入。
+使用MT管理器打开任意dex文件，选择Dex编辑器++即可进入。
 
 可以看到**浏览**、**最近**、**搜索**三个标签页
 
@@ -43,7 +43,7 @@ Dex编辑器++采用差量编译，即修改过的类需要进行编译，而未
 
 初始化时，每个类都是根据它的类名和包名进行存放，当我们在smali代码中修改了一个类的类名或包名时，它的位置和名称并不会改变，实际还是以smali代码中的定义为准。
 
-举个例子，浏览界面中打开com/android/example中的ClassA，在smali第一行定义了它的完整类名**Lcom/android/example/ClassA;**，将它改成**Lcom/android/ClassB;**并保存后，你可能以为它会移动到com/android中，并且名称变成ClassB，其实不会，你依旧需要在com/android/example中的ClassA打开它。
+举个例子，浏览界面中打开com/android/example中的ClassA，在smali第一行定义了它的完整类名Lcom/android/example/ClassA;，将它改成Lcom/android/ClassB;并保存后，你可能以为它会移动到com/android中，并且名称变成ClassB，其实不会，你依旧需要在com/android/example中的ClassA打开它。
 
 ## 搜索功能
 
