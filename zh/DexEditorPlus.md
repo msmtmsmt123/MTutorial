@@ -45,6 +45,8 @@ Dex编辑器++采用差量编译，即修改过的类需要进行编译，而未
 
 举个例子，浏览界面中打开com/android/example中的ClassA，在smali第一行定义了它的完整类名Lcom/android/example/ClassA;，将它改成Lcom/android/ClassB;并保存后，你可能以为它会移动到com/android中，并且名称变成ClassB，其实不会，你依旧需要在com/android/example中的ClassA打开它。
 
+这个跟原Dex编辑器的设计思想上存在不同，如果不理解，就把它想成apktool的使用方式，你修改了一个smali文件中类的定义，改完后这个文件依旧在原来的位置不会动是一样的道理。
+
 ## 搜索功能
 
 Dex编辑器++支持搜索字符串、方法名、整数、代码，可指定搜索路径、是否搜索子目录、是否区分大小写，支持正则表达式，支持在当前搜索结果中搜索，支持撤销搜索。
