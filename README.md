@@ -1,6 +1,6 @@
 # MT管理器
 
-[下载最新版](http://mt.jouyo.cn/mt_last.html)
+[下载最新版](http://d.binmt.cc/)
 
 ## 教程
 
